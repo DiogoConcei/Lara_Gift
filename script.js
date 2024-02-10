@@ -34,7 +34,7 @@ nao.addEventListener("click", () => {
 });
 
 sim.addEventListener("click", () => {
-    img.src = 'instagram-zefexwoo-shaurya.gif'; 
+    img.src = './instagram-zefexwoo-shaurya.gif'; 
     sim.style.display = 'none'
     nao.style.display = 'none'
     frase.textContent = 'EBA <3 !!!'; 
