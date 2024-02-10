@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 125px;
+    height: 125px; 
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    width: 60px; 
+    height: 40px;
+    font-size: 18px; 
+}
+
+.Sim {
+    color: white;
+    background: green;
+    border: 2px solid green;
+}
+
+.Nao {
+    color: white;
+    background: red;
+    border: red;
+    width: auto; 
+}
